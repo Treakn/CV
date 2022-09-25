@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 400;
+}
+html{
+    font-size: 62.5%;
+}
+
+/*section 1 */
+.section-1{
+   width: 100%;
+   height: 100vh;
+   background: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.3)) ,
+   url(/images/Bg.avif);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.section-1-heading{
+    font-size: 6rem;
+    font-weight: 700;
+    color: #fff;
+    background-color:#e41c61 ;
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    border-bottom: .3rem solid #fff;
+    text-shadow: .2rem .2rem 1ren #555;
+    transform: skew(-10deg);
+    position: relative;
+
+}
+
+.person-img{
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .7rem dotted #e41c61;
+    background-color: rgba(255,255,255,.7);
+    padding: .5rem;
+    opacity: .9;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+
+}
+
+.person-name{
+    font-size: 2rem;
+    color: #fff;
+    background-color: #e41c61;
+    margin: 5rem 0;
+    padding: .5rem 3rem;
+    letter-spacing: .3rem;
+    transform: skew(-10deg);
+}
+
+.section-1-btn{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color:#333;
+    background-color: #fff;
+    border: .3rem solid #333;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    transform: skew(-10deg);
+
+}
+
+/*end of section 1 */
+/*navbar */
+.navbar{
+    width: 100%;
+    height: 4rem;
+    background-color: #e41c61;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .2rem .2rem .5rem #555;
+    transition: all .3s ease;
+}
+
+.navbar-link{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 3rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navbar-link:hover {
+    color: #fff;
+    transform: scale(.8);
+    transition: all .3s ease;
+    
+}
+.navbar-link::before{
+    content: '';
+    width: 0%;
+    height: .2rem;
+    background-color: #fff;
+    position: absolute;
+    right: -15%;
+    bottom: -.5rem;
+}
+
+.navbar-link:hover::before{
+    width: 130%;
+    transition: width .3s ease;
+}
+/*end of navbar */
+
+/*section-2*/
+ .section-2{
+    width: 100%;
+    height: 100%;
+    padding: 15rem 0 10rem 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+.section-2-heading{
+    font-size: 5rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    margin-bottom:5rem;
+    border-bottom: .3rem solid#333;
+    text-shadow: .2 .2 .5 #555;
+
+}
+
+.progress-bars-wrapper{
+    margin-bottom: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.progress-bar{
+    width: 40rem;
+    height: 10rem;
+    background-color: #e41c61;
+    margin: 1.5rem 0 ;
+    border-radius: .7rem;
+    box-shadow: .2rem .2rem 1rem #555;
+    position: relative;
+    margin: 3rem 3rem;
+
+}
+
+.progress-text{
+    position: absolute;
+    left: 1rem;
+    font-size: 3rem;
+    text-shadow: .3rem .3rem .6rem #333;
+    color: #fff;
+    font-weight: 900;
+}
+
+.services {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.service:first-child,
+.service:last-child{
+    align-self: flex-start;
+}
+
+.service{
+    text-align: center;
+
+}
+.service i {
+    font-size: 10rem;
+    color: #888;
+    margin-bottom: 2rem;
+    text-shadow: .1rem .1rem .5rem #555;
+
+}
+
+.service h2{
+    font-size: 2rem;
+    color:#fff;
+    background-color: #777;
+    width: 25rem;
+    letter-spacing: .3rem;
+    transform: skew(-10deg);
+    box-shadow: .2rem .2rem .5rem #555;
+}
+
+.service:hover{
+    transform: translateY(30px);
+    transition: all.3s ease;
+}
+
+/*end of section-2 */
+
+/*section-3 */
+
+
+.section-3{
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-3-heading{
+    font-size: 5rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    margin-bottom:5rem;
+    border-bottom: .3rem solid#333;
+    text-shadow: .2 .2 .5 #555;
+}
+
+.project-wrapper{
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project_img{
+    width: 40rem;
+    
+    
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: #fff;
+    box-shadow: .3rem .3rem .5rem #777;
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow .3s ease;
+    
+}
+.project:hover .project-text{
+    top: 5rem;
+}
+.project-text{
+    text-align: center;
+    letter-spacing: .3rem;
+    position: absolute;
+    top: -10rem;
+    transition: top .3s ease;
+    z-index: 2;
+}
+
+.project-name{
+    font-size: 3rem;
+    font-weight: 300;
+    color:#333;
+    text-transform: capitalize;
+
+
+}
+
+.project-tech{
+    font-size: 1.8rem;
+    color:#e41c6f;
+
+}
+.project-link{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: .1rem;
+    border: .3rem solid #e41c6f;
+    padding: 0 1rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: -5rem;
+    transition: bottom .3s ease;
+}
+
+.project:hover .project-link{
+    bottom: 5rem;
+}
+
+.project:hover .project_img{
+    opacity: .2;
+    transition: opacity .3s ease;
+}
+
+.project:hover{
+    box-sizing: 1rem 1rem 1rem #777;
+}
+/*end of section-3 */
+
+/*section-4 */
+
+.section-4-heading{
+    font-size: 5rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    margin-bottom:5rem;
+    border-bottom: .3rem solid#333;
+    text-shadow: .2 .2 .5 #555;
+}
+
+.section-4{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #555;
+  
+}
+
+.section-4-heading{
+    color: #fff;
+    box-shadow: none;
+    border-color: #fff;
+    margin-bottom: 5rem;
+}
+
+.contact-form{
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.contact-form input ,.contact-form textarea{
+    width: 100%;
+    padding: .5rem;
+    margin: .3rem 0;
+    background-color: #eef;
+    font-size: 1.5rem;
+    border: .2rem solid #e41c6f;
+    color: #555;
+
+}
+
+.contact-form textarea{
+    height: 10rem;
+    max-height: 15rem;
+    max-width: 100%;
+}
+.contact-form .contact-form-btn{
+    background-color: #e41c6f;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+/*end of section-4 */
+
+
+/*responsive */
+@media(max-width:1200px){
+    .services{
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .service{
+        margin: 3rem 2rem;
+    }
+
+    .section-4{
+        height: 80vh;
+    }
+
+    @media(max-width:800px){
+        .section-1-heading{
+            font-size: 4rem;
+
+        }
+        .person-img{
+            left: 60%;
+            top: 60%;
+        }
+    }
+    @media(max-width:600px){
+        .section-1-heading{
+            font-size: 3rem;
+
+        }
+        .navbar-link{
+            margin: 0 2rem;
+            font-size: 1.5rem;
+
+        }
+        .section-2{
+            padding: 10rem;
+
+        }
+        .section-2-heading{
+            margin-bottom: 10rem;
+
+        }
+
+         .project_img{
+            width: 100%;
+            
+         }
+         .contact-form{
+            width: 40rem;
+         }
+         .person-img{
+            left: 60%;
+            top: 66%;
+        }
+    }
+    @media(max-width:500px){
+        html{
+            font-size: 55%;
+        }
+        .person-img{
+            left: 50%;
+            top: 70%;
+            width: 10;
+        }
+    }
+    @media(max-width:450px){
+        html{
+            font-size: 45%;
+        }
+        .section-1-heading{
+            font-size: 2.5rem;
+        }
+
+        .navbar-link{
+            margin: 0 1.5rem;
+        }
+        .section-2-heading{
+            text-align: center;
+
+        }
+        .person-img{
+            left: 60%;
+            top: 70%;
+        }
+
+
+    }
+}
+/*end of responsive*/
