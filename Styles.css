@@ -37,6 +37,8 @@ html{
    height: 100vh;
    background: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.3)) ,
    url(/images/Bg.avif);
+   background-size: cover;
+   background-repeat: no-repeat;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -466,7 +468,7 @@ html{
 
     .person-img{
         left: 68%;
-        top: 45%;
+        top: 48%;
     }
 
     @media(max-width:800px){
