@@ -191,7 +191,11 @@ html{
     color: #fff;
     border-radius: 3rem;
     width: 40rem;
-    height: 20rem;
+    height: 30rem;
+}
+
+.card-wrapper .card p{
+    font-size: 1.4rem;
 }
 
 .card-wrapper .card h2{
