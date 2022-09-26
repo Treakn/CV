@@ -190,6 +190,8 @@ html{
     background-color:#34495E ;
     color: #fff;
     border-radius: 3rem;
+    width: 40rem;
+    height: 20rem;
 }
 
 .card-wrapper .card h2{
@@ -455,8 +457,8 @@ html{
     .person-img{
         left: 68%;
         top: 46%;
-        width: 40rem;
-        height: 40rem;
+        width: 20rem;
+        height: 20rem;
     }
 }
 @media(min-width:1200px){
