@@ -193,7 +193,10 @@ html{
     width: 40rem;
     height: 30rem;
 }
-
+.card-wrapper .card h2{
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
 .card-wrapper .card p{
     font-size: 1.4rem;
 }
