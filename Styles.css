@@ -176,6 +176,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .card-wrapper .card{
@@ -200,6 +201,8 @@ html{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 5rem;
+    
 
 }
 .service:first-child,
@@ -285,6 +288,7 @@ html{
     position: relative;
     overflow: hidden;
     transition: box-shadow .3s ease;
+    border-radius: 5rem;
     
 }
 .project:hover .project-text{
@@ -447,6 +451,14 @@ html{
 /*end of footer */
 
 /*responsive */
+@media(min-width:1500px){
+    .person-img{
+        left: 68%;
+        top: 46%;
+        width: 40rem;
+        height: 40rem;
+    }
+}
 @media(min-width:1200px){
     .person-img{
         left: 68%;
@@ -470,7 +482,11 @@ html{
 
     .person-img{
         left: 68%;
-        top: 53%;
+        top: 49%;
+        width: 20rem;
+        height: 20rem;
+        
+       
     }
 
     @media(max-width:800px){
@@ -479,10 +495,10 @@ html{
 
         }
         .person-img{
-            left: 75%;
+            left: 70%;
             top: 40%;
-            width: 17rem;
-            height: 17rem;
+            width: 20rem;
+            height: 20rem;
         }
     }
     @media(max-width:600px){
